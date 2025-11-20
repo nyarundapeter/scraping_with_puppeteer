@@ -1,2 +1,2 @@
-# scraping_with_puppeteer
-This GitHub repository is a experiment on web scraping using Puppeteer, a Node.js library.
+# Scraping With Puppeteer
+This GitHub repository is an experiment on web scraping using Puppeteer, a Node.js library.
