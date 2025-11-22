@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer",
+  "version": "0.0.1",
+  "description": "Puppeteer Experiment",
+  "homepage": "https://github.com/nyarundapeter/scraping_with_puppeteer#readme",
+  "bugs": {
+    "url": "https://github.com/nyarundapeter/scraping_with_puppeteer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyarundapeter/scraping_with_puppeteer.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^24.31.0"
+  }
+}
