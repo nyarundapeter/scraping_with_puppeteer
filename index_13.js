@@ -2,7 +2,15 @@ const puppeteer = require ("puppeteer");
 
 async function run(){
     //Launnch a new browser instance
-    const browser = await puppeteer.launch({headless:false});
+    const browser = await puppeteer.launch(
+        {
+            headless:false,
+            defaultViewport: { width:1920, height: 720},
+            devtools: true,
+            slowMo: 10,
+            env: 'dev'
+        },
+    );
 
     const page = await browser.newPage();
 
